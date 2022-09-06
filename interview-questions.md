@@ -98,6 +98,6 @@ Research and define the following terms to the best of your ability.
 
 3. ERB: templating system in ruby
 
-4. Params:
+4. Params: short for parameters, which lets the developer add more information to the program by passing down information to the controller
 
-5. API:
+5. API: aplication programming interface, connects apps together and transimts information in the form of JSON
