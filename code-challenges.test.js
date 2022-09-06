@@ -126,7 +126,7 @@ fdescribe("fullHouse", () =>{
     // Expected output: false
     const hand4 = [7, 2, 7, 2, 7]
     // Expected output: true
-    it("take in a array of words, and a string containing 1 letter and returns an array of alll the words containing the single letter regardless of capitalization ", () => {
+    it("take in a array of numbers,  and determines if it is a full house", () => {
         expect(fullHouse(hand1)).toEqual(true)
         expect(fullHouse(hand2)).toEqual(false)
         expect(fullHouse(hand3)).toEqual(false)
