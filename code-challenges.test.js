@@ -92,9 +92,13 @@ describe("finder", () =>{
     // Time:        0.598 s, estimated 1 s
     // Ran all test suites.
 // b) Create the function that makes the test pass.
-
+// pseudo code
+// create a function, finder, that takes in 2 variables, an array and a string
 const finder = (array, string) => {
+    // create an empty array to store the output of the function
     let newArr = []
+    // iterate through the array checking to see if the string at each index contains the letter string
+    // also utilizing .toUpperCase to see if the capital version of the letter string is in the indexed strings
     for (let i = 0; i < array.length; i++) {
         if (array[i].includes(string)||array[i].includes(string.toUpperCase()))
             newArr.push(array[i])
